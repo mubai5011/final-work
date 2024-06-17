@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+body{
+    background-color: #FDFFBA;
+    background-size: 900px 1000px;
+}
+#contents{
+    padding: 40px 80px;
+    border:0px solid #f6bb9e;
+    background-color: #fff;
+}
+.p1{
+    font-size: 80px;
+}

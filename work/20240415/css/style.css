@@ -1,0 +1,28 @@
+#container{
+width: 980px;
+margin: 40px auto;
+padding: 40px 80px;
+border: 1px solid #f6bb9e;
+background-color: cornflowerblue;
+}
+.h11 span{
+    font-size: 64px;
+    color: red;
+}
+.photo{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: #fff;
+}
+.imgL{
+    float: left;
+    margin-right: 30px;
+}
+.clear{
+    clear: both;
+}
+.wordR{
+    float: right;
+    margin-left: 30px;
+}

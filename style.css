@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+body{
+    background-color: teal;
+    background-image: url(image/firefly.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 900px 1000px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+
+}
+h1{
+    text-align: left;
+    width: 1200px;
+    font-size: 500%;
+}
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    width: 150px;
+    margin: 0px 10px;
+    
+}
+.menu a{
+    display: block;
+    padding: 10px;
+    background: teal;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu a:hover{
+    background: rgb(1, 148, 148);
+}
+#contents{
+    padding: 40px 80px;
+    border:0px solid #f6bb9e;
+    background-color: #fff;
+}
+h2{
+    padding: 10px;
+    margin-bottom: 30px;
+    display: block;
+    background: rgba(255, 255, 0, 0.61);
+    border-radius: 8px;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.flex-container .left-ul{
+    margin-right: auto;
+}
+.flex-container .center-ul{
+    margin: auto;
+}
+.flex-container .right-ul{
+    margin-left: auto;
+}
+.imgL{
+    float: left;
+    margin-right: 30px;
+}
+section{
+    margin-bottom: 20px;
+    background-color: lightgray;
+}
+.section1{
+    background: teal;
+    height: 1000px;
+    width: 100%;
+}
+#contents,.section1{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+dl{
+    font-size: 50px;
+    position: absolute;
+    right: 40%;
+    top: 250%;
+    width: 200px;
+    padding: 20px;
+    color: yellowgreen;
+}
+dt{
+    font-size: 40px;
+}
+dd{
+    font-size: 40px;
+}
+ul{
+    font-size: 40px;
+}
+li{
+    font-size: 30px;
+}
+.image1{
+    display: inline-block;
+    text-align: center;
+}
+h3{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 8px;
+    background: green;
+}
+.image-top{
+    vertical-align: top;
+    border-radius: 100px;
+    padding: 10px;
+}
